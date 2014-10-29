@@ -10,21 +10,10 @@ public class ConfigurationHandler
 	public static Configuration configuration;
 	public static boolean testValue=false;
 	public static void init(File configFile){
-		configuration = new Configuration(configFile);
-		boolean configValue=false;
-		try
+		if (configuration == null)
 		{
-			configuration.load();
-			configValue=configuration.get(Configuration.CATEGORY_GENERAL, "configValue", true, "This is an example of a config value").getBoolean(true);
-		}
-		catch (Exception e)
-		{
-		}
-		finally
-		{
-			if(configuration.hasChanged()){
-			configuration.save();
-			}
+			configuration = new Configuration(configFile);
+			loadConfiguration();
 		}
 	}
  @SubscribeEvent
@@ -35,7 +24,7 @@ public class ConfigurationHandler
 		 loadConfiguration();
 	 }
  }
- public void loadConfiguration()
+ private static void loadConfiguration()
  {
 	 testValue=configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example configuration value.");
 	 if (configuration.hasChanged() )
