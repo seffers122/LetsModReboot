@@ -1,0 +1,5 @@
+package com.seffers122.letsmodreboot.client.gui;
+
+public class GuiConfig {
+
+}

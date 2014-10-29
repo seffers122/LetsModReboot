@@ -112,3 +112,6 @@ org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.a
 2014-10-29 09:57:26,414 [pool-8-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 12
 2014-10-29 14:03:00,503 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-8.1.10.v20130312
 2014-10-29 14:03:00,553 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started SelectChannelConnector@127.0.0.1:60644
+2014-10-29 14:35:52,301 [pool-10-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 12
+2014-10-29 14:35:52,796 [pool-12-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 12
+2014-10-29 14:35:53,128 [pool-14-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 12
