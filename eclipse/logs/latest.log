@@ -1,10 +1,10 @@
-[16:07:35] [main/INFO]: Setting user: Player828
-[16:07:37] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:07:42] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
-[16:07:43] [Sound Library Loader/INFO]: Sound engine started
-[16:07:47] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:07:47] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4096_null.png
-java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4096_null.png
+[18:52:39] [main/INFO]: Setting user: Player218
+[18:52:41] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:52:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[18:52:48] [Sound Library Loader/INFO]: Sound engine started
+[18:52:52] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:52:52] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/letsmodrebootmapleLeaf.png
+java.io.FileNotFoundException: minecraft:textures/items/letsmodrebootmapleLeaf.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
@@ -28,11 +28,11 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4096_n
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[16:07:47] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:07:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
-[16:07:48] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:07:48] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4096_null.png
-java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4096_null.png
+[18:52:52] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:52:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[18:52:53] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:52:53] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/letsmodrebootmapleLeaf.png
+java.io.FileNotFoundException: minecraft:textures/items/letsmodrebootmapleLeaf.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
@@ -59,33 +59,6 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4096_n
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[16:07:48] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:07:48] [Sound Library Loader/INFO]: Sound engine started
-[16:08:05] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[16:08:05] [Server thread/INFO]: Generating keypair
-[16:08:06] [Server thread/INFO]: Converting map!
-[16:08:06] [Server thread/INFO]: Scanning folders...
-[16:08:06] [Server thread/INFO]: Total conversion count is 0
-[16:08:08] [Server thread/INFO]: Preparing start region for level 0
-[16:08:08] [Server thread/INFO]: Changing view distance to 12, from 10
-[16:08:09] [Server thread/INFO]: Player828[local:E:a2fa8b98] logged in with entity id 6 at (4.5, 4.0, -1484.5)
-[16:08:09] [Server thread/INFO]: Player828 joined the game
-[16:08:10] [Server thread/INFO]: Saving and pausing game...
-[16:08:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[16:08:11] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[16:08:11] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[16:08:15] [Server thread/INFO]: Player828 has just earned the achievement [Taking Inventory]
-[16:08:15] [Client thread/INFO]: [CHAT] Player828 has just earned the achievement [Taking Inventory]
-[16:09:06] [Client thread/INFO]: [CHAT] That player cannot be found
-[16:09:13] [Client thread/INFO]: [CHAT] There is no such item with ID mapleLeaf
-[16:09:33] [Server thread/INFO]: [Player828: Given [item.null.name] * 1 to Player828]
-[16:09:33] [Client thread/INFO]: [CHAT] Given [item.null.name] * 1 to Player828
-[16:09:47] [Client thread/INFO]: Stopping!
-[16:09:47] [Server thread/INFO]: Stopping server
-[16:09:47] [Server thread/INFO]: Saving players
-[16:09:47] [Server thread/INFO]: Saving worlds
-[16:09:47] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[16:09:47] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[16:09:47] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[16:09:47] [Client Shutdown Thread/INFO]: Stopping server
-[16:09:47] [Client Shutdown Thread/INFO]: Saving players
+[18:52:53] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:52:54] [Sound Library Loader/INFO]: Sound engine started
+[18:56:02] [Client thread/INFO]: Stopping!
